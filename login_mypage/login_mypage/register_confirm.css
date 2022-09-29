@@ -1,0 +1,98 @@
+body {
+    margin: 0 auto;
+    background-color: #f8f8f8;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    box-shadow: 2px 2px 4px lightgray;
+    text-align: center;
+}
+
+header img {
+    margin-top: 15px;
+    height: 50px;
+    padding-left: 40px;
+}
+
+.login {
+    float: right;
+    margin-top: 50px;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+main {
+    clear: left;
+    width: 100%;
+}
+
+.confirm {
+    margin: 0 auto;
+    border: solid 2px lightgray;
+    width: 600px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    box-shadow: 4px 4px 4px lightgray;
+    padding: 15px;
+    text-align: center;
+}
+
+.confirm_contents {
+    margin: 30px 25px;
+}
+
+h2 {
+    border-bottom: solid 1px #31A263;
+    font-size: 20px;
+}
+
+p.index {
+    text-align: left;
+    margin-left: 20px;
+}
+
+form.back,
+form.register {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.back_button {
+    border: solid 1px lightgray;
+    padding: 6px 60px 4px;
+    color: white;
+    background-color: lightgray;
+    border-radius: 5px;
+    border-bottom: solid 2px gray;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.register_button {
+    border: solid 1px lightgray;
+    padding: 6px 60px 4px;
+    color: white;
+    background-color: #31a263;
+    border-radius: 5px;
+    border-bottom: solid 2px gray;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    color: gray;
+    text-align: center;
+    line-height: 40px;
+    font-size: 13px;
+    border-top: solid 2px lightgray;
+}
